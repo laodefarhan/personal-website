@@ -1,0 +1,288 @@
+@media screen and (max-width: 480px) {
+    /* My resume section */
+    .container {
+        flex-direction: column;
+    }
+
+    /* Services section */
+    .services-container {
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Header section */
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        display: none;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+    .navbar ul li {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        font-size: 1.3rem;
+    }
+
+    #menu-icon {
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    /* Home section */
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .social-media a {
+        font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .home-img img {
+        width: 35vw;
+    }
+
+    /* About section */
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+    }
+
+    .about-content ul {
+        font-size: 1.2rem;
+    }
+
+    /* My resume section */
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    
+    .timeline-bullet {
+        font-size: 1.2rem;
+    }
+
+    .date {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .company {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    /* Services section */
+    .services .heading {
+        font-size: 1.5rem;
+    }
+
+    .services p {
+        font-size: 1.2rem;
+    }
+    
+    .services-container {
+        flex-direction: column;
+        padding-left: 25%;
+    }
+
+    .services-box {
+        min-width: 10rem;
+        max-width: 30rem;
+    }
+
+    .services h2 {
+        font-size: 1.5rem;
+    }
+
+    .services-box p {
+        font-size: 1.2rem;
+    }
+
+    /* Skill section */
+    .skills .heading {
+        font-size: 1.5rem;
+    }
+
+    .skills p {
+        font-size: 1.2rem;
+    }
+
+    .progress-circle {
+        transform: scale(0.8);
+        transform-origin: center;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Projects section */
+    .projects h2 {
+        font-size: 1.5rem;
+    }
+
+    .projects p {
+        font-size: 1.2rem;
+    }
+    
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+        min-width: 10rem;
+        max-width: 30rem;
+        padding-left: 20%;
+    }
+
+    .projects-layer h4 {
+        font-size: 1.5rem;
+    }
+
+    .projects-layer p {
+        font-size: 1.2rem;
+    }
+
+    /* Contact section */
+    .contact .heading {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+    .contact-form .input-message textarea {
+        width: 100%;
+        max-width: 420px;
+        min-width: 250px;
+    }
+
+    /* Footer section */
+    .footer-container {
+        padding: 0 25px;
+    }
+    
+    .footer-logo {
+        font-size: 1rem;
+    }
+
+    .social-link {
+        font-size: 1.5rem;
+    }
+
+    .footer-copyright p {
+        font-size: 1rem;
+    }
+
+    /* Back to top button */
+    .back-to-top i {
+        font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Header section */
+    .logo {
+        font-size: 1.8rem; /* Sedikit lebih besar dari ukuran 576px */
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        display: none;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: left;
+        padding-left: 2rem; /* Sedikit lebih kecil dibandingkan 576px */
+    }
+
+    .navbar ul li {
+        padding: 0.8rem 0; /* Sedikit lebih kecil dibandingkan 576px */
+        width: 100%;
+    }
+
+    .navbar ul li a {
+        font-size: 1.5rem; /* Font sedikit lebih besar */
+    }
+
+    #menu-icon {
+        font-size: 2rem; /* Ikon lebih besar untuk navigasi */
+        display: block;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%; /* Menggunakan 100% lebar kontainer */
+    }
+
+    .projects-layer h4 {
+        font-size: 1.5rem;
+    }
+    
+    .projects-layer p {
+        font-size: 1.2rem;
+    }
+}
