@@ -69,3 +69,20 @@ navLinks.forEach(link => {
         navbar.classList.remove("active"); // Menutup navbar
     });
 });
+
+// ========== Konfigurasi menampilkan pesan error pada form contact ==========
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Mencegah pengiriman data
+        console.log("Formulir dihentikan, data tidak dikirim."); // Debugging
+
+        let errors = [
+            "Terjadi kesalahan pada sistem, silakan coba lagi nanti. Mohon maaf, permintaan Anda tidak dapat diproses saat ini. Formulir mengalami masalah, harap hubungi kami melalui media lain."
+        ];
+
+        // Menampilkan pesan error acak
+        alert(errors[Math.floor(Math.random() * errors.length)]);
+    });
+});

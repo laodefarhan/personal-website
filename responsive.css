@@ -1,12 +1,87 @@
 @media screen and (max-width: 480px) {
+    /* Home section */
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -5rem;
+    }
+
+    .home-img {
+        order: -1;
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .home-img img {
+        width: 80% !important;
+        height: auto;
+    }
+
+    /* About section */
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-img {
+        order: -1;
+        width: 80%;
+        max-width: 250px;
+    }
+
+    .about-img img {
+        width: 80%;
+        height: auto;
+    }
+
+    .about-content {
+        order: 2;
+    }
+    
     /* My resume section */
     .container {
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section {
+        width: auto;
+    }
+
+    .resume-title {
+        position: relative;
+        left: -8rem;
+    }
+
+    .timeline {
+        position: relative;
+    }
+
+    .timeline-item {
+        left: -10rem;
     }
 
     /* Services section */
     .services-container {
         padding-right: 25%;
+    }
+
+    /* Projects section */
+    .projects-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects-container .projects-box {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        right: 7rem;
     }
 }
 

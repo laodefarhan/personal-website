@@ -120,7 +120,6 @@ span {
 
 .home-img img {
     width: 25vw;
-    filter: blur(5px);
 }
 
 .home-content h2 {
@@ -192,7 +191,6 @@ span {
 
 .about-img img {
     width: 25vw;
-    filter: blur(5px);
 }
 
 .about-content {
